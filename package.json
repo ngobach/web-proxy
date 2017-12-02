@@ -1,0 +1,27 @@
+{
+  "name": "web-proxy",
+  "version": "0.0.1",
+  "description": "Another web proxy",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "babel-node ./src/index.js",
+    "lint": "eslint ./src",
+    "build": "babel -d build src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
